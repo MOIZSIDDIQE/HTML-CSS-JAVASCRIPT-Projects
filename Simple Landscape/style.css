@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    background-color: black;
+    background-image: url(image.png);
     color: white;
     padding: 60px 20px;
     background-size: cover;
