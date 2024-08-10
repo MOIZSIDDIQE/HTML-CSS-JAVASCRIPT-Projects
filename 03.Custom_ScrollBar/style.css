@@ -4,3 +4,18 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body {
+    background-color: rgb(235, 134, 2);
+}
+
+.card {
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(23, 123, 216);
+    font-family: sans-serif;
+    line-height: 30px;
+    box-shadow: 10px 10px 5px black;
+}
+
