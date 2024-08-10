@@ -5,7 +5,7 @@
   }
   
   body {
-    background: #00008bcb;
+    background: rgb(15, 15, 250);
   }
   
   .wrapper {
@@ -28,5 +28,27 @@
     border-radius: 50px;
     margin: 0 10px;
     animation: load 0.8s ease infinite;
-    box-shadow: 8px 8px 5px black;
+    box-shadow: 8px 8px 9px black;
+
+  }
+  
+  .loader .loading.one {
+    animation-delay: 0.3s;
+  }
+  .loader .loading.two {
+    animation-delay: 0.4s;
+  }
+  .loader .loading.three {
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes load {
+    0% {
+      width: 30px;
+      height: 30px;
+    }
+    50% {
+      width: 20px;
+      height: 20px;
+    }
   }
