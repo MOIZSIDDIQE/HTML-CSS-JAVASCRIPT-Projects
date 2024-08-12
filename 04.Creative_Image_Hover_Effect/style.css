@@ -1,0 +1,16 @@
+body{
+    background-color:#fa871b;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: hsl(0, 36%, 17%);
+}
