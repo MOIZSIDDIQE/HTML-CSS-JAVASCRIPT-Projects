@@ -42,7 +42,6 @@ a:before{
     align-items: center;
 }
 
-
 a:hover:before{
     transform: translateY(0);
 }
