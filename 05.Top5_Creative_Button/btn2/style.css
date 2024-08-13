@@ -15,3 +15,21 @@ a{
     position:relative;
     text-decoration: none;
 }
+
+a:before{
+    content: "Button";
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: salmon;
+    /* Center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Lets provide rotation/animation */
+    transform: rotateX(270deg);
+    transform-origin: top;
+    transition: all 0.5s;
+}
