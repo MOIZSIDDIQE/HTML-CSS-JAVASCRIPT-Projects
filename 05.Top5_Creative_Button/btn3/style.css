@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -19,6 +20,7 @@ a {
     position: relative;
     transition: all 0.2;
     color: white;
+    
 }
 
 
@@ -48,4 +50,19 @@ a:after{
     mix-blend-mode: multiply;
     transition: all 0.2s;
     transform-origin: bottom;
+}
+
+a:hover:before{
+    top:-6px;
+    left: 0;
+    transform: perspective(1000px) rotateX(75deg);
+}
+a:hover:after{
+    top:6px;
+    left: 0;
+    transform: perspective(1000px) rotateX(-75deg);
+}
+
+a:hover{
+    color: black;
 }
