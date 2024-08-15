@@ -33,3 +33,13 @@ a:before{
     transform-origin: top;
     transition: all 0.5s;
 }
+
+a::after{
+    content: "button";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:  100%;
+    background: rgb(14,231 ,14);
+}
