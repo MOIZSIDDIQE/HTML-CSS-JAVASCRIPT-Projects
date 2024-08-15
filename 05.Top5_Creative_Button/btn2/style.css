@@ -4,13 +4,14 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-color: rgb(230, 73, 11);
 }
 
 a{
     padding: 2rem 3rem;
     text-transform: uppercase;
-    background-color: blueviolet;
-    color:#fff;
+    background-color: rgb(243, 240, 34);
+    color:#000000;
     font-size: 2.6rem;
     position:relative;
     text-decoration: none;
@@ -23,7 +24,7 @@ a:before{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: salmon;
+    background-color: rgb(255, 136, 0);
     /* Center */
     display: flex;
     justify-content: center;
@@ -41,7 +42,7 @@ a::after{
     left: 0;
     height: 100%;
     width:  100%;
-    background: rgb(14,231 ,14);
+    background: rgb(17, 0, 255);
     display: flex;
     justify-content: center;
     align-items: center;
