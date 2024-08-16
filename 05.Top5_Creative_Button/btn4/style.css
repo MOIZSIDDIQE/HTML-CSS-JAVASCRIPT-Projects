@@ -11,4 +11,15 @@
     align-items: center;
     font-family: sans-serif;
     background-color: burlywood;
-}   
+}
+
+.btn{
+    border: none;
+    padding: 1rem 4rem;
+    background-color: black;
+    color: aliceblue;
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
