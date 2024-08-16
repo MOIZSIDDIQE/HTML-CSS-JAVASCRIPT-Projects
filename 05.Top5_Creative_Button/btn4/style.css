@@ -49,3 +49,9 @@
     border-right: 4px solid darkblue;
     transition: all 0.5s;
 }
+
+.btn:hover:before,
+.btn:hover:after{
+    height: 100%;
+    width: 100%;
+}
