@@ -47,6 +47,7 @@
     border-right: 4px solid darkblue;
     transition: all 0.5s;
 }
+
 .btn:hover{
     background-color: rgb(221, 208, 27);
     color: rgb(221, 38, 238);
