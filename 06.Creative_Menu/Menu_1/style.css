@@ -61,7 +61,6 @@ a:after {
     transform-origin: right;
 }
 
-
 ul li a:hover:before,
 ul li a:hover:after {
     transform: scaleX(1);
