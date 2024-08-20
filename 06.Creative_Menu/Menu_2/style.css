@@ -9,7 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif
+    font-family: sans-serif;
+    background-color: darkcyan;
 }
 
 ul{
@@ -20,4 +21,16 @@ ul{
 
 li{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px 30px;
+    position: relative;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    transition:1s
 }
