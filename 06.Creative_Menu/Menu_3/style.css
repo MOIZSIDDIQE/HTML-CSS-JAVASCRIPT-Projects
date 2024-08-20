@@ -10,7 +10,8 @@
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    background: black;
+    background: linear-gradient(red,yellow);
+    color: darkcyan;
 }
 
 ul {
@@ -22,7 +23,7 @@ li {
 }
 
 a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0.4rem 1rem;
     font-size: 2rem;
@@ -40,7 +41,7 @@ a:before{
     left: 12px;
     width: 12px;
     height: 12px;
-    border: 3px solid white;
+    border: 3px solid rgb(0, 0, 0);
     border-width: 0 0 3px 3px;
     opacity: 0;
     transition:all 0.6s;
@@ -53,7 +54,7 @@ a:after{
     right: 0;
     width: 12px;
     height: 12px;
-    border: 3px solid white;
+    border: 3px solid rgb(0, 0, 0);
     border-width:3px 3px 0 0 ;
     opacity: 0;
     transition:all 0.6s;
@@ -69,4 +70,9 @@ a:hover::after{
     opacity: 1;
     top: -8px;
     right: -8px;
+}
+a:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(253, 0, 148);
+    box-shadow: 7px 7px 8px rgb(2, 47, 252);
 }
