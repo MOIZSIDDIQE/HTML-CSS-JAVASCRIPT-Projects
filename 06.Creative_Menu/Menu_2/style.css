@@ -3,16 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: darkcyan;
+}
 .container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    background-color: darkcyan;
 }
-
 ul {
     padding: 0;
     margin: 0;
@@ -43,21 +43,34 @@ a:before{
     width: 100%;
     height:100%;
     opacity: 0;
-    transform: scaleY(2.5);
+    transform: scaleY(2);
     transition: 1s;
-    border-top: 2px solid rgb(0, 0, 0);
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid crimson;
+    border-bottom: 2px solid crimson;
+}
+a:hover:before{
+    opacity: 1;
+    transform: scaleY(1.2);
 }
 
-a::after{
+a:after{
     content: "";
     background: crimson;
     position:absolute;
-    top: 2;
+    top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+    transition: all 1s;
     transform: scale(0);
-    transition: 1s;
     z-index: -1;
+}
+
+
+a:hover::after{
+    transform: scale(1);
+}
+
+a:hover{
+    color: bisque;
 }
