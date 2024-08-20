@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,17 +13,17 @@
     background-color: darkcyan;
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
-    display:flex;
+    display: flex;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     padding: 15px 30px;
     position: relative;
@@ -32,5 +32,19 @@ a{
     text-transform: uppercase;
     font-size: 22px;
     font-weight: bold;
-    transition:1s
+    transition: 1s
+}
+
+a:before{
+    content:"";
+    position : absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    transform: scaleY(2.5);
+    transition: 1s;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
