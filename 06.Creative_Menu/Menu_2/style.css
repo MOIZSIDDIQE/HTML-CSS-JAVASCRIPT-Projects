@@ -48,3 +48,16 @@ a:before{
     border-top: 2px solid rgb(0, 0, 0);
     border-bottom: 2px solid rgb(0, 0, 0);
 }
+
+a::after{
+    content: "";
+    background: crimson;
+    position:absolute;
+    top: 2;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: scale(0);
+    transition: 1s;
+    z-index: -1;
+}
