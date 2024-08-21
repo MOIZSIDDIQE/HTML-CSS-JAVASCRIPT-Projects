@@ -39,3 +39,14 @@ body {
     background:linear-gradient(red,blue,pink);
     transform: translateX(-100%);
 }
+
+.container:hover .content {
+    transform: translateX(0);
+}
+.container:hover img {
+    transform: translateX(100%);
+}
+section{
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px rgb(0, 0, 0);
+}
