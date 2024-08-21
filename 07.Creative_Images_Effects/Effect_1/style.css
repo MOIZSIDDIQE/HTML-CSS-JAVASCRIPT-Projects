@@ -1,20 +1,25 @@
-body{
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    background:linear-gradient(darkorange,yellow,darkcyan);
 }
 
-.container{
+.container {
     /* margin-top: 5rem; */
-    width: 40rem;
-    height: 40rem;
+    width:35rem;
+    height: 30rem;
     position: relative;
     overflow: hidden;
 }
 
-.container img{
+.container img {
     width: 100%;
     transition: all 1s;
+    height: 100%;
 }
