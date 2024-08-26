@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #e7f700;
     color: rgb(255, 255, 255);
     font-family: sans-serif;
 }
@@ -13,7 +13,10 @@ body {
     height: 30rem;
     position: relative;
     overflow: hidden;
+    background-color: black;
     font-size: 20px;
+    box-shadow: 0px 0px 30px rgb(183, 1, 255);
+    border-radius: 20px;
 }
 h1{
     margin-bottom: 2px;
