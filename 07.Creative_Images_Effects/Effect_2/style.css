@@ -45,3 +45,11 @@ img {
     flex-direction: column;
     transition: all 1s;
 }
+
+.container:hover .content {
+    transform: translateY(0);
+}
+
+.container:hover img {
+    transform: translateY(-30%);
+}
