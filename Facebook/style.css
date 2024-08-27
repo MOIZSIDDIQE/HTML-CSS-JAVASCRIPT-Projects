@@ -62,3 +62,15 @@ ul {
     justify-content: space-between;
 }
 
+
+.div3 {
+    /* margin-right: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div3 a {
+
+    padding: 10px 10px;
+}
