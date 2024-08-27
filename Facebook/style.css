@@ -49,4 +49,16 @@ ul {
     align-items: center;
 }
 
+.div2 a:hover {
+    background-color: rgb(39, 39, 39, 0.1);
+    border-radius: 4px;
+}
+
+.div2 ul li {
+    border-radius: 10px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
