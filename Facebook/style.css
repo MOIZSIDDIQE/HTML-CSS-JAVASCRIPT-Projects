@@ -74,3 +74,16 @@ ul {
 
     padding: 10px 10px;
 }
+
+.main-bar {
+    /* border-right: 0px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 350px;
+    height: 580px;
+}
+
+.down-bar .side {
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
