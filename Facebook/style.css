@@ -146,3 +146,13 @@ span {
 
 }
 
+.input-search[placeholder] {
+    font-size: 15px;
+}
+
+.search {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25px 0px 0px 25px;
+}
