@@ -14,4 +14,16 @@ body {
     justify-content: center;
 }
 
+.main {
+    background: linear-gradient(to right, rgba(0, 217, 255, 0.952), rgb(2, 2, 39));
+    background-color: black;
+    height: 550px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 22px;
+}
 
