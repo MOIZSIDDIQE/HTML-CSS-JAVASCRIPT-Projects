@@ -103,3 +103,19 @@ span {
     background-color: rgb(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+
+.bar1,
+.bar2 {
+    margin-bottom: 20px;
+    margin-left: 7%;
+
+}
+
+.under-div {
+    padding: 10px 9px;
+}
+
+.setting {
+    width: 30px;
+    height: 30px;
+}
