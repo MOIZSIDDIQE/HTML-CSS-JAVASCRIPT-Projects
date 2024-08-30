@@ -87,3 +87,19 @@ ul {
     font-family: sans-serif;
     font-weight: 400;
 }
+
+.down-bar .side div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+}
+
+span {
+    margin-left: 15px;
+}
+
+.down-bar .side:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
