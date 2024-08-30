@@ -119,3 +119,20 @@ span {
     width: 30px;
     height: 30px;
 }
+
+.bar1 div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bar2 div {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 90%;
+}
