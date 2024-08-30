@@ -136,3 +136,13 @@ span {
     border: none;
     width: 90%;
 }
+
+.input-search {
+    width: 100%;
+    background-color: rgba(54, 38, 38, 0);
+    height: 40px;
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+
+}
+
