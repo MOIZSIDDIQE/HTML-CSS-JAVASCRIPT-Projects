@@ -135,3 +135,8 @@ a {
     margin-left: 14px;
     color: white;
 }
+
+#now:hover {
+    color: darkturquoise;
+    text-decoration: underline;
+}
