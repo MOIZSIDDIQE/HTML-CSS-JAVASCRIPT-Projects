@@ -119,3 +119,19 @@ a {
     background-color: rgba(2, 151, 250, 0.5);
     color: white;
 }
+
+#create-account {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ask {
+    color: rgba(0, 0, 0, 0.884);
+}
+
+#now {
+    margin-left: 14px;
+    color: white;
+}
