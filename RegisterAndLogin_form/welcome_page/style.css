@@ -56,3 +56,19 @@ body {
     font-size: 14px;
     margin-left: 6px;
 }
+
+input {
+    width: 260px;
+    height: 10px;
+    padding: 13px 25px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border-color: rgb(46, 146, 138);
+    background-color: rgb(255, 255, 255);
+}
+
+input:hover {
+    background-color: rgb(253, 245, 245);
+    border: 2px solid black;
+}
