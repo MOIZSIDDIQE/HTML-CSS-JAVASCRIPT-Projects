@@ -72,3 +72,19 @@ input:hover {
     background-color: rgb(253, 245, 245);
     border: 2px solid black;
 }
+
+.forget-div {
+    width: 220px;
+    margin-top: 6px;
+    text-align: end;
+}
+
+#forget {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#forget:hover {
+    text-decoration: underline;
+}
