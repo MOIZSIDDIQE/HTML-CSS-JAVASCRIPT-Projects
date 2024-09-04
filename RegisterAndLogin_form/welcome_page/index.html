@@ -9,29 +9,27 @@
 </head>
 
 <body>
-    <div class="main">
-        <div class="heading-div">
-            <h2 id="wel">Welcome</h2>
-            <h4 id="log">Login to your account</h4>
-        </div>
-        <div class="input-div">
-            <div class="email">
-                <h4>Email</h4>
-                <input type="email" placeholder="Email" required>
+    <div class="container">
+        <form action="../welcome_page/index.html">
+            <div class="heading-div">
+                <h2 class="heading1">Welcome</h2>
+                <h4 class="heading2">Login to your account</h4>
             </div>
-            <div class="pasword">
-                <h4>Password</h4>
-                <input type="password" placeholder="Password" required>
+            <div class="input-div">
+                    <label class="label">Email <input class="input" type="email" placeholder="Email" required></label>
+                    <label class="label">Password <input class="input" type="password" placeholder="Password"required></label>
             </div>
-        </div>
-        <div class="forget-div"><a id="forget" href="">Forgot Password?</a></div>
-        <div class="login-div">
-            <div id="login"><a href="">Login</a></div>
-            <div id="create-account">
-                <p id="ask">Don't have account?</p>
-                <a id="now" href="">Create Now</a>
+            <div class="forget-div">
+                <a class="forget" href="">Forgot Password?</a>
             </div>
-        </div>
+            <div class="login-div">
+                <div class="login"><input type="submit" value="Login"></div>
+                <div class="create-account">
+                    <p class="ask ">Don't have account? <a class="end-link" href="../Verification_Page/index.html">Create Now</a></p>
+                    
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 
