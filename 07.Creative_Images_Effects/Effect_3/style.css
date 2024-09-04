@@ -10,10 +10,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fffefe;
+    color: white;
 
 }
 
-
+.main{
+    width: 30rem;
+    height: 35rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
