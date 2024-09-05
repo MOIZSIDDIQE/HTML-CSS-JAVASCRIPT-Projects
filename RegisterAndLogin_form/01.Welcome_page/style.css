@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background: linear-gradient(to right, rgb(2, 2, 39), rgba(0, 217, 255, 0.952));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: linear-gradient(to right, rgba(0, 217, 255, 0.952), rgb(2, 2, 39));
+    background-color: black;
+    width: 400px;
+    height: 550px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 22px;
+}
+
+.heading-div {
+    margin-bottom: 15px;
+}
+
+.heading1{
+    font-size: 39px;
+    font-weight: 500;
+    text-align: center;
+    margin: 3px 0px;
+}
+
+.heading2{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.label .input{
+    display: block;
+}
+
+.label{
+    line-height: 30px;
+}
+
+.label{
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 9px;
+}
+
+.input {
+    width: 260px;
+    height: 10px;
+    padding: 13px 25px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border-color: rgb(46, 146, 138);
+    background-color: rgb(255, 255, 255);
+}
+
+.input:hover {
+    background-color: rgb(253, 245, 245);
+    border: 2px solid black;
+}
+
+.forget-div {
+    width: 300px;
+    margin-top: 6px;
+    text-align: end;
+}
+
+.forget {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.forget:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.login-div {
+    margin-top: 39px;
+    display: flex;
+    /* align-content: center;
+    justify-content: center; */
+    flex-direction: column;
+    height: 100px;
+}
+.login{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.login input {
+    border: 1px solid black;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(0, 140, 255);
+    font-size: 20px;
+    padding: 6px 100px;
+    margin-bottom: 5px;
+    transition: all 0.5s;
+}
+
+
+
+.login input:hover {
+    background-color: rgba(2, 151, 250, 0.5);
+    color: white;
+}
+
+.create-account {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ask {
+    color: rgba(0, 0, 0, 0.884);
+}
+
+.end-link{
+    margin-left: 5px;
+    color: white;
+}
+
+.end-link:hover {
+    color: darkturquoise;
+    text-decoration: underline;
+}
