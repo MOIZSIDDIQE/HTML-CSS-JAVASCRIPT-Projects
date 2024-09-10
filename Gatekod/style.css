@@ -22,3 +22,21 @@ body {
     height: 60px;
     cursor: pointer;
 }
+
+.nav-hero {
+    width: 860px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-hero li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 24px;
+    margin: 6px 5px;
+    font-size: 20px;
+}
+
+
