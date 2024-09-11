@@ -87,3 +87,16 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+.home-main-heading {
+    width: 490px;
+    height: 300px;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-main-heading h1 span {
+    color: white;
+}
