@@ -100,3 +100,13 @@ body {
 .home-main-heading h1 span {
     color: white;
 }
+
+.home-center-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
