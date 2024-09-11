@@ -10,11 +10,15 @@ body {
 }
 
 .nav-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 80px;
+    background-color: white;
 }
 
 .logo img {
@@ -43,4 +47,18 @@ body {
     border: 3px solid black;
     border-radius: 5px;
     background-color: #0ebab1;
+}
+
+.quote-button a {
+    width: 100%;
+    height: 100%;
+    background-color: #0ebab1;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
 }
