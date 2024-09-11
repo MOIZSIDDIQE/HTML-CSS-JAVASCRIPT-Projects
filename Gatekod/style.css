@@ -150,3 +150,14 @@ body {
     background-color: white;
     clip-path: polygon(20% 0, 20% 100%, 100% 50%);
 }
+
+.play-button:hover .triangle {
+    background-color: black;
+}
+
+.play-button:hover{
+    transition: all 0.6s;
+    transform: scale(1.1);
+    background-color: #ebebeb;
+
+}
