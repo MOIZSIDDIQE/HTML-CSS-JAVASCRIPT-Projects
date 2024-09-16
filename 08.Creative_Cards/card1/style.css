@@ -22,3 +22,16 @@ body{
     padding: 30px;
     border: 2px solid black;
 }
+
+.container:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:  -100% ;
+    width: 100%;
+    height: 100%;
+    background: rgb(25, 56, 197);
+    z-index: 1;
+    transition: all 1s;
+    transform: translateY(0);
+}
