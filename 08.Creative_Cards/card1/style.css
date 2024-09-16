@@ -39,4 +39,11 @@ body{
 .container:hover:before{
     transform: translateY(-100%);
 }
+.container:hover{
 
+    border-radius: 5px;
+    transition: all 1s;
+    box-shadow: 0 8px 15px rgb(0, 0, 0) ;
+    transform: scale(1.03);
+
+}
