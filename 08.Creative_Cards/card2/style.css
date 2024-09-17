@@ -44,3 +44,6 @@ img{
     object-fit: cover;   
     z-index: 1;
 }
+section:hover img{
+    transition: all 0.5s;
+}
