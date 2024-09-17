@@ -66,3 +66,8 @@ section:before,section:after{
     transition: all 0.5s;
     z-index: -2;
 }
+
+section:hover:before{
+    transition: all 0.5s;
+    transform: rotate(26deg);
+}
