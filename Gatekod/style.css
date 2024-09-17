@@ -176,3 +176,10 @@ body {
     z-index: 3;
 }
 
+.image-button a {
+    text-decoration: none;
+    padding: 10px 11px;
+    border-radius: 50px;
+}
+
+
