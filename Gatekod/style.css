@@ -195,4 +195,9 @@ body {
     border: 1px solid #0ebab1;
 }
 
+.image-button a:hover {
+    background-color: #ebebeb;
+    color: black;
+
+}
 
