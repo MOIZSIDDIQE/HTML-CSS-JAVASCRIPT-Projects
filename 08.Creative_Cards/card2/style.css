@@ -30,3 +30,8 @@ div{
     transition: all 0.5s;
     height: 95%;
 }
+
+div:hover{
+    height: 82%; 
+    transition: all 0.5s;
+}
