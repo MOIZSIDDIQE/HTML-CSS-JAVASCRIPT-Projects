@@ -71,3 +71,8 @@ section:hover:before{
     transition: all 0.5s;
     transform: rotate(26deg);
 }
+
+section:hover:after{
+    transition:all 0.5s;
+    transform: rotate(13deg);
+}
