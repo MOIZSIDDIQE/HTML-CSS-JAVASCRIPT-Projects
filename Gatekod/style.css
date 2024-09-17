@@ -183,3 +183,16 @@ body {
 }
 
 
+.get {
+    color: white;
+    background-color: #0ebab1;
+    border: 1px solid #0ebab1;
+
+}
+
+.schedule {
+    color: #0ebab1;
+    border: 1px solid #0ebab1;
+}
+
+
