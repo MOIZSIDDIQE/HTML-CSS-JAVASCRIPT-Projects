@@ -14,3 +14,9 @@ body {
     background: linear-gradient(to top,white,blue);
 }
 
+.container {
+    position: relative;
+    font-size: 27px;
+    padding: 7px;
+    cursor: pointer;
+}
