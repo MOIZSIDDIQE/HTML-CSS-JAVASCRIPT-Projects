@@ -216,3 +216,9 @@ body {
     height: 190px;
     background-color: rgba(204, 198, 198, 0.233);
 }
+
+.about {
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
