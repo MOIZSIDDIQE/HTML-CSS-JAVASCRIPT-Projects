@@ -36,3 +36,8 @@ body {
     visibility: hidden;
     border-radius: 9px;
 }
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
