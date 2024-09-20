@@ -251,3 +251,9 @@ body {
     padding: 9px 15px;
     border-radius: 50px;
 }
+
+.about-image {
+    width: 500px;
+    height: 500px;
+}
+
