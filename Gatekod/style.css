@@ -239,3 +239,15 @@ body {
 .about-heading span {
     color: #0ebab1;
 }
+
+.about-button {
+    color: white;
+    background-color: #0ebab1;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+    padding: 9px 15px;
+    border-radius: 50px;
+}
