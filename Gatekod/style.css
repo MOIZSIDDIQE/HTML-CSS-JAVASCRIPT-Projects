@@ -257,3 +257,11 @@ body {
     height: 500px;
 }
 
+.about-ring{
+    width: 350px;
+    height: 550px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    z-index: -1;
+}
