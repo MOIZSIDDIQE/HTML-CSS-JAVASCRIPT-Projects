@@ -400,3 +400,15 @@ body {
     transform: scale(1.05);
     transition: all 0.5s;
 }
+
+.mem3 {
+    width: 200px;
+    margin: 0;
+}
+
+.mem3 img {
+    width: 200px;
+    height: 370px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
