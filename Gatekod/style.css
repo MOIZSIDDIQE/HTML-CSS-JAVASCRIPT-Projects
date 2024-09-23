@@ -305,3 +305,11 @@ body {
     transform: scale(1.05);
 
 }
+
+.service-heading span {
+    color: #0ebab1;
+}
+
+.service-para {
+    font-weight: 200;
+}
