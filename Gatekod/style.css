@@ -339,3 +339,15 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+
+.team-content {
+    width: 350px;
+    height: 210px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 140px;
+    text-transform: capitalize;
+}
