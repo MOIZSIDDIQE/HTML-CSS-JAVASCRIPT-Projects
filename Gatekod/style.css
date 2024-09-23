@@ -361,3 +361,12 @@ body {
     padding: 8px 19px;
     border-radius: 50px;
 }
+
+.team-heading {
+    color: #0ebab1;
+    font-size: 46px;
+}
+
+.team-para {
+    font-size: 19px;
+}
