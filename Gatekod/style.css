@@ -274,3 +274,14 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
+
+.service-heading {
+    margin-bottom: 50px;
+}
+
+.services-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
