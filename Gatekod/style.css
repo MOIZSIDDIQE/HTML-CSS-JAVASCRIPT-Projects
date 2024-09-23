@@ -313,3 +313,11 @@ body {
 .service-para {
     font-weight: 200;
 }
+
+.service-box img {
+    width: 39px;
+    height: 39px;
+    background-color: #00fff20e;
+    margin-left: 8px;
+    border-radius: 50%;
+}
