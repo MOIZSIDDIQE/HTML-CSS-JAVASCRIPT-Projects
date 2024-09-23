@@ -321,3 +321,14 @@ body {
     margin-left: 8px;
     border-radius: 50%;
 }
+
+.service-button a {
+    display: flex;
+    align-items: center;
+    background-color: #0ebab1;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+
