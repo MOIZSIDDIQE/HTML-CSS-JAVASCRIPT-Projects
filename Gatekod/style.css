@@ -351,3 +351,13 @@ body {
     margin-left: 140px;
     text-transform: capitalize;
 }
+
+.team-button {
+    display: flex;
+    align-items: center;
+    background-color: #0ebab1;
+    text-decoration: none;
+    color: white;
+    padding: 8px 19px;
+    border-radius: 50px;
+}
