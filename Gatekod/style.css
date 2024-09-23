@@ -370,3 +370,9 @@ body {
 .team-para {
     font-size: 19px;
 }
+
+.team-member {
+    width: 760px;
+    display: flex;
+    justify-content: space-between;
+}
