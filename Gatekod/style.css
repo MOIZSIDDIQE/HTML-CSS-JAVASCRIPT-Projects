@@ -298,3 +298,10 @@ body {
     border-radius: 7px;
     transition: all 0.6s;
 }
+
+.service-box:hover {
+    box-shadow: 0px 0px 9px black;
+    transition: all 0.6s;
+    transform: scale(1.05);
+
+}
