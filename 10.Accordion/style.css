@@ -30,6 +30,21 @@ ul li{
     margin-bottom: 17px;
 }
 
+label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    font-size: 20px;
+    color: chartreuse;
+    font-weight: 500px;
+
+}
+
+
+li >input{
+    display: none;
+}
 
 .content{
     line-height: 20px;
