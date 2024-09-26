@@ -29,3 +29,12 @@ ul li{
     padding: 20px;
     margin-bottom: 17px;
 }
+
+
+.content{
+    line-height: 20px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s;
+    transform: translateX(120%);
+}
