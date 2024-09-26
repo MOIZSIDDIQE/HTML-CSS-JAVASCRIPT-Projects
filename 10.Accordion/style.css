@@ -20,3 +20,12 @@ body{
     max-height: 1100px;
     overflow: hidden;
 }
+
+ul li{
+    list-style: none;
+    width: 100%;    
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 17px;
+}
