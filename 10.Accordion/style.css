@@ -38,3 +38,9 @@ ul li{
     transition: max-height 0.2s;
     transform: translateX(120%);
 }
+
+label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+    transition: 0.5s;
+    transform: translateX(0);
+}
