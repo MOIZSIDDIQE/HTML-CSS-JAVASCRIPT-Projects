@@ -437,3 +437,15 @@ body {
     justify-content: space-between;
 }
 
+.std-div1-s {
+    width: 49%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ebebeb;
+    border-radius: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.6s;
+}
