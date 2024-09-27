@@ -562,3 +562,14 @@ img[src="images/arrowLogo.png"] {
     background-color: #14bbb3;
 
 }
+
+.std-div2-b1 a:hover,
+.std-content a:hover,
+.about-button:hover,
+.team-button:hover,
+.service-button a:hover,
+.std-button:hover {
+    background-color: #ebebeb;
+    color: black;
+    box-shadow: 0px 0px 9px black;
+}
