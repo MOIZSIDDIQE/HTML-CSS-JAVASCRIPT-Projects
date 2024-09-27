@@ -499,3 +499,12 @@ body {
     margin-left: 90px;
 }
 
+.std-div2-b2 {
+    width: 40%;
+    height: 100%;
+    text-align: end;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
