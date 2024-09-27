@@ -508,3 +508,22 @@ body {
     align-items: end;
 }
 
+.std-div2-b2 img {
+    width: 200px;
+    height: 290px;
+    cursor: pointer;
+}
+
+.std-div2-b2 img[src="images/st4.png"] {
+    height: 260px;
+}
+
+.std-div2-b2 img[src="images/st3.png"] {
+    border-radius: 16px;
+}
+
+img[src="images/arrowLogo.png"] {
+    width: 17px;
+    height: 17px;
+}
+
