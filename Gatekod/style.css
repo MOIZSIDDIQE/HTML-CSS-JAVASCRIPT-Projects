@@ -422,3 +422,18 @@ body {
     flex-direction: column;
 }
 
+.std-heading {
+    color: white;
+    margin: 40px 0px;
+}
+
+.std-div {
+    width: 80%;
+}
+
+.std-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
