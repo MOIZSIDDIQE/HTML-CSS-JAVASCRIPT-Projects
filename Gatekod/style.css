@@ -449,3 +449,18 @@ body {
     border: 2px solid rgb(255, 255, 255);
     transition: all 0.6s;
 }
+
+.std-content {
+    width: 358px;
+    height: 262px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.std-content h1 {
+    margin-top: 50px;
+}
+
