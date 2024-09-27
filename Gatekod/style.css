@@ -553,12 +553,3 @@ img[src="images/arrowLogo.png"] {
     padding: 9px 19px;
     border-radius: 25px;
 }
-
-.std-div1-s:hover,
-.std-div2:hover {
-    box-shadow: 0px 0px 9px black;
-    transition: all 0.6s;
-    transform: scale(1.05);
-    background-color: #14bbb3;
-
-}
