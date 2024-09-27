@@ -527,3 +527,38 @@ img[src="images/arrowLogo.png"] {
     height: 17px;
 }
 
+.std-div2-b1 a,
+.std-content a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+
+
+.std-button {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #0ebab1;
+    background-color: white;
+    text-decoration: none;
+    padding: 9px 19px;
+    border-radius: 25px;
+}
+
+.std-div1-s:hover,
+.std-div2:hover {
+    box-shadow: 0px 0px 9px black;
+    transition: all 0.6s;
+    transform: scale(1.05);
+    background-color: #14bbb3;
+
+}
