@@ -616,4 +616,11 @@ img[src="images/arrowLogo.png"] {
     transition: all 0.6s;
 }
 
+.profile:hover{
+    
+    box-shadow: 0px 4px 9px black;
+    transition: all 0.6s;
+    transform: scale(1.05);
+}
+
 
