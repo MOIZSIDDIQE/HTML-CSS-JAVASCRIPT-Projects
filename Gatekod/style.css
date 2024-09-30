@@ -622,5 +622,14 @@ img[src="images/arrowLogo.png"] {
     transition: all 0.6s;
     transform: scale(1.05);
 }
+.p1 {
+    margin-left: 210px;
+}
+
+.pro-under {
+    display: flex;
+    align-items: center;
+}
+
 
 
