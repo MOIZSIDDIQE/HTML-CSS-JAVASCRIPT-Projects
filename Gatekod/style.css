@@ -596,5 +596,9 @@ img[src="images/arrowLogo.png"] {
     align-items: center;
 }
 
+.star {
+    width: 58px;
+    height: 12px;
+}
 
 
