@@ -585,5 +585,16 @@ img[src="images/arrowLogo.png"] {
 }
 
 
+.pro-heading {
+    color: #0ebab1;
+    text-align: center;
+}
+
+.pro-sec {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
 
 
