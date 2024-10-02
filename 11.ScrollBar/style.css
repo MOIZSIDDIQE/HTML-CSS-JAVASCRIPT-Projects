@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 50% 50%, rgb(0, 0, 255), rgb(195, 0, 255),yellow);
+}
