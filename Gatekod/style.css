@@ -663,3 +663,11 @@ img[src="images/arrowLogo.png"] {
     margin-bottom: 40px;
     color: #707070;
 }
+
+.ques-sec {
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+}
