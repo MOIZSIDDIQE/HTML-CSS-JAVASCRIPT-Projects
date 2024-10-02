@@ -749,3 +749,11 @@ img[src="images/arrowLogo.png"] {
     justify-content: center;
     align-items: center;
 }
+
+.search input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    margin-left: 7px;
+}
+
