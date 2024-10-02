@@ -736,3 +736,16 @@ img[src="images/arrowLogo.png"] {
     display: flex;
 }
 
+.search img{
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+}
+.search{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
