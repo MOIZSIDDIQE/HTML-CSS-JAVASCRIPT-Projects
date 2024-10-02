@@ -729,3 +729,10 @@ img[src="images/arrowLogo.png"] {
     top: 130px;
 }
 
+
+
+.last-button{
+    width: 450px;
+    display: flex;
+}
+
