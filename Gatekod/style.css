@@ -654,3 +654,12 @@ img[src="images/arrowLogo.png"] {
     text-align: center;
 }
 
+.ques-heading{
+    color: #0ebab1;
+    margin: 40px 0px;
+}
+
+.ques-heading+p{
+    margin-bottom: 40px;
+    color: #707070;
+}
