@@ -671,3 +671,12 @@ img[src="images/arrowLogo.png"] {
     align-items: center;
     flex-direction: column;
 }
+
+.ques-div {
+    border-top: 2px solid #ccc;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
