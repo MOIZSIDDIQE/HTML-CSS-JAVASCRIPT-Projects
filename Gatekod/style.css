@@ -696,3 +696,12 @@ img[src="images/arrowLogo.png"] {
     flex-direction: column;
     text-align: start;
 }
+
+.q5 p{
+    width: 60%;
+    color: #707070;
+}
+
+.q7 {
+    border-bottom: 2px solid #ccc;
+}
