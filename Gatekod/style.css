@@ -680,3 +680,10 @@ img[src="images/arrowLogo.png"] {
     align-items: center;
     padding: 20px 10px;
 }
+
+.q5 div {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
