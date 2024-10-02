@@ -687,3 +687,12 @@ img[src="images/arrowLogo.png"] {
     align-items: start;
     justify-content: space-between;
 }
+
+.q5 {
+    height: 180px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: start;
+}
