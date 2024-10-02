@@ -24,7 +24,7 @@ body{
     overflow: hidden;
     overflow-y: scroll;
     padding: 30px;
-    border: 4px solid rgb(255, 0, 157);
+    border: 4px solid purple;
     border-radius: 19px;
     font-size: 22px;
 
@@ -45,3 +45,11 @@ h1:hover{
     text-shadow: 3px 3px 10px white;
 }
 
+.scroll::-webkit-scrollbar{
+    width: 12px;
+}
+
+.scroll::-webkit-scrollbar-thumb{
+    background:linear-gradient(rgb(255, 238, 2),rgb(1, 39, 255));
+    border-radius: 10px;
+}
