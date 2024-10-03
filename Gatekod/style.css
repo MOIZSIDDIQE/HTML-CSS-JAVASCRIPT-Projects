@@ -848,3 +848,11 @@ img[src="images/arrowLogo.png"] {
     border-radius: 5px;
 }
 
+.d3 input{
+    border: 2px solid white;
+}
+
+.d3 img{
+    width: 20px;
+    margin-left: 10px;
+}
