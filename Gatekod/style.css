@@ -838,4 +838,13 @@ img[src="images/arrowLogo.png"] {
     padding-top: 45px;
 }
 
+.d3 div{
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 28px 20px;
+    border-radius: 5px;
+}
 
