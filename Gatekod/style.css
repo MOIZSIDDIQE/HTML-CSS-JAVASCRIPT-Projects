@@ -814,3 +814,11 @@ img[src="images/arrowLogo.png"] {
     border-radius: 6px;
 }
 
+.d2{
+    width: 12%;
+    text-align: start;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
