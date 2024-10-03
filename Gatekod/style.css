@@ -796,3 +796,14 @@ img[src="images/arrowLogo.png"] {
     flex-direction: column;
     text-align: start   ;
 }
+
+.d1>p{
+    color: white;
+}
+
+.d1 img{
+    width:200px ;
+    height: 59px ;
+    cursor: pointer;
+}
+
