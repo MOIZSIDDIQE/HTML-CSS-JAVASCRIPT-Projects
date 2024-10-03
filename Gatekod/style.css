@@ -759,6 +759,7 @@ img[src="images/arrowLogo.png"] {
 
 .last-button a{
     width: 170px;
+    /* height: 40px; */
     color: white;
     background-color: #0ebab1;
     border: 2px solid white;
@@ -770,3 +771,11 @@ img[src="images/arrowLogo.png"] {
     align-items: center;
     justify-content: center;
 }
+
+.page-footer{
+    height: 550px;
+    background-color: black;
+    display: flex;
+    align-items: end;
+}
+
