@@ -779,3 +779,10 @@ img[src="images/arrowLogo.png"] {
     align-items: end;
 }
 
+.under-footer{
+    width: 100%;
+    height: 390px;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 10px 30px  ; */
+}
