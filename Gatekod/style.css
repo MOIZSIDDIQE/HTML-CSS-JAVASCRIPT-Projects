@@ -786,3 +786,13 @@ img[src="images/arrowLogo.png"] {
     justify-content: space-evenly;
     /* padding: 10px 30px  ; */
 }
+
+.d1{
+    width: 24%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: start   ;
+}
