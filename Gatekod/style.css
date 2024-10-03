@@ -822,3 +822,9 @@ img[src="images/arrowLogo.png"] {
     justify-content: space-evenly;
     flex-direction: column;
 }
+
+.d2 p,.d3 p{
+    color: #0ebab1;
+    margin: 25px 0px;
+}
+
